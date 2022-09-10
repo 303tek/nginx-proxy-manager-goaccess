@@ -13,7 +13,7 @@ comment out:
 - log-format COMBINED
 
 add:
-- log_format [%d:%t %^] %s - %m %^ %v "%U" [Client %h] [Length %b] [Gzip %^] "%u" "%R"
+- log-format [%d:%t %^] %s - %m %^ %v "%U" [Client %h] [Length %b] [Gzip %^] "%u" "%R"
 - time-format %T
 - date-format %d/%b/%Y
 
